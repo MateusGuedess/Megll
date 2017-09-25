@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "452390091909",
+    "firebase_url": "https://megll-9cb0b.firebaseio.com",
+    "project_id": "megll-9cb0b",
+    "storage_bucket": "megll-9cb0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452390091909:android:2b609f3fffdc847b",
+        "android_client_info": {
+          "package_name": "com.megll.mateusguedes.megll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452390091909-j2aj4aulrqj17bv8uh1til99j62bsenb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.megll.mateusguedes.megll",
+            "certificate_hash": "13277ac8b8cec24b2fe979ffeb6750dbf5f963b3"
+          }
+        },
+        {
+          "client_id": "452390091909-ua0ceg3sldopou98tm2qpena8k6jbgn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA97GUghageHk17kfHRM66OCISmJ4A7dmw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452390091909-ua0ceg3sldopou98tm2qpena8k6jbgn5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
