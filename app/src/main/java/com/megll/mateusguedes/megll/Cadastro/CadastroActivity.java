@@ -24,6 +24,7 @@ public class CadastroActivity extends AppCompatActivity {
         email = (EditText) findViewById(R.id.endereco);
         btnEnviar = (Button) findViewById(R.id.btnEnviar);
         btnCancelar = (Button) findViewById(R.id.btnCancelar);
+        //TODO proximo passo -> confirir se todos os campos tem valores, e inserir no firebase.
 
     }
 }
