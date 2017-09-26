@@ -1,0 +1,10 @@
+# App files and folders
+/.gradle
+/build
+/local.properties
+
+# OS files and folders
+/.DS_STORE
+/.idea
+/.vscode
+/nbproject
