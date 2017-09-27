@@ -1,4 +1,4 @@
-#Tue Sep 26 02:34:06 BRT 2017
+#Wed Sep 27 01:03:16 BRT 2017
 base.0=C\:\\Users\\Mateus Guedes\\AndroidStudioProjects\\Megll\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
 renamed.0=classes.dex
 file.0=C\:\\Users\\Mateus Guedes\\AndroidStudioProjects\\Megll\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

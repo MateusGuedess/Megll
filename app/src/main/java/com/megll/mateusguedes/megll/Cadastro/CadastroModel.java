@@ -18,10 +18,10 @@ public class CadastroModel extends AppCompatActivity{
     private DatabaseReference databaseReference = firebaseDatabase.getReference();
 
     //Cadastra usuário
-    public void cadastrarUsuario(Cliente cliente, String id){
+    public void cadastrarUsuario(Cliente cliente, String id, String usuarioLogado){
 
         inicializarFirebase();
-        databaseReference.child("Cliente").child(id).setValue(cliente);
+        databaseReference.child("Cliente").child(usuarioLogado).child(id).setValue(cliente);
 
     }
 

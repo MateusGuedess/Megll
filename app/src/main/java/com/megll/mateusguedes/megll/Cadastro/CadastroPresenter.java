@@ -2,6 +2,8 @@ package com.megll.mateusguedes.megll.Cadastro;
 
 import android.text.TextUtils;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.megll.mateusguedes.megll.Cliente;
 
 import org.w3c.dom.Text;
@@ -15,6 +17,8 @@ import java.util.UUID;
 public class CadastroPresenter {
 
     private CadastroModel cadastroModel = new CadastroModel();
+    private FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+    private FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
     //confereCamposVazios(){} recebe os dados e verifica se eles não estão vazios.
     public boolean confereCamposVazios(String nomeCliente){
@@ -38,7 +42,9 @@ public class CadastroPresenter {
         cliente.setDocumento(documento);
         cliente.setEmail(email);
         cliente.setEndereco(endereco);
-        cadastroModel.cadastrarUsuario(cliente, cliente.getId());
+        String usuarioLogado = user.getEmail();
+        usuarioLogado = usuarioLogado.replace(".","*");
+        cadastroModel.cadastrarUsuario(cliente, cliente.getId(), usuarioLogado);
     }
 
 }

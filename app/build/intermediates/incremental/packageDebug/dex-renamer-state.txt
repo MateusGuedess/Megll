@@ -1,4 +1,4 @@
-#Tue Sep 26 02:07:45 BRT 2017
+#Wed Sep 27 01:57:04 BRT 2017
 base.0=C\:\\Users\\Mateus Guedes\\AndroidStudioProjects\\Megll\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_03ff8aba46d3da059652ecaa7bb90c97c93f76bd
 renamed.1=classes2.dex
 renamed.0=classes.dex
